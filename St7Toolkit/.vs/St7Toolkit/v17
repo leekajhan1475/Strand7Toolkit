@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\St7Toolkit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A958D7E-B1A4-627A-4403-FFD8E3F03426}|St7Toolkit\\St7Toolkit.csproj|c:\\users\\dell\\source\\repos\\st7toolkit\\st7toolkit\\types\\st7objecttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A958D7E-B1A4-627A-4403-FFD8E3F03426}|St7Toolkit\\St7Toolkit.csproj|solutionrelative:st7toolkit\\types\\st7objecttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A958D7E-B1A4-627A-4403-FFD8E3F03426}|St7Toolkit\\St7Toolkit.csproj|c:\\users\\dell\\source\\repos\\st7toolkit\\st7toolkit\\model\\unitconversion\\rhinodocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A958D7E-B1A4-627A-4403-FFD8E3F03426}|St7Toolkit\\St7Toolkit.csproj|solutionrelative:st7toolkit\\model\\unitconversion\\rhinodocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A958D7E-B1A4-627A-4403-FFD8E3F03426}|St7Toolkit\\St7Toolkit.csproj|c:\\users\\dell\\source\\repos\\st7toolkit\\st7toolkit\\model\\unitconversion\\st7document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A958D7E-B1A4-627A-4403-FFD8E3F03426}|St7Toolkit\\St7Toolkit.csproj|solutionrelative:st7toolkit\\model\\unitconversion\\st7document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "St7ObjectTypes.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\St7Toolkit\\St7Toolkit\\Types\\St7ObjectTypes.cs",
+              "RelativeDocumentMoniker": "St7Toolkit\\Types\\St7ObjectTypes.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\St7Toolkit\\St7Toolkit\\Types\\St7ObjectTypes.cs",
+              "RelativeToolTip": "St7Toolkit\\Types\\St7ObjectTypes.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T23:57:38.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RhinoDocument.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\St7Toolkit\\St7Toolkit\\Model\\UnitConversion\\RhinoDocument.cs",
+              "RelativeDocumentMoniker": "St7Toolkit\\Model\\UnitConversion\\RhinoDocument.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\St7Toolkit\\St7Toolkit\\Model\\UnitConversion\\RhinoDocument.cs",
+              "RelativeToolTip": "St7Toolkit\\Model\\UnitConversion\\RhinoDocument.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T14:05:37.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "St7Document.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\St7Toolkit\\St7Toolkit\\Model\\UnitConversion\\St7Document.cs",
+              "RelativeDocumentMoniker": "St7Toolkit\\Model\\UnitConversion\\St7Document.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\St7Toolkit\\St7Toolkit\\Model\\UnitConversion\\St7Document.cs",
+              "RelativeToolTip": "St7Toolkit\\Model\\UnitConversion\\St7Document.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T01:36:29.374Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
