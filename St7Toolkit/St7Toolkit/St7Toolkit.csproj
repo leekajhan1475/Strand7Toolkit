@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<TargetExt>.dll</TargetExt>
+	</PropertyGroup>
+	
+	<PropertyGroup>
+		<!-- Specifies information for Assembly and Yak -->
+	    <Version>1.0</Version>
+	    <Title>St7Toolkit</Title>
+	    <Author>ZONHGHANCHAN</Author>
+	    <Description>Strand7Library</Description>
+    </PropertyGroup>
+	
+    <ItemGroup>
+	    <Reference Include="RhinoCommon">
+		    <HintPath>$(ProgramFiles)\Rhino 7\System\RhinoCommon.dll</HintPath>
+	    </Reference>
+	    <Reference Include="System.Windows.Forms" />
+    </ItemGroup>
+	
+    <ItemGroup>
+      <Folder Include="Properties\" />
+    </ItemGroup>
+
+    <Target Name="CheckRhinoCommonVersion" AfterTargets="Build">
+		<GetAssemblyIdentity AssemblyFiles="$(ProgramFiles)\Rhino 7\System\RhinoCommon.dll">
+			<Output TaskParameter="Assemblies" ItemName="RhinoCommonAssembly" />
+		</GetAssemblyIdentity>
+		<PropertyGroup>
+			<!-- Other libraries include package that targets specific version of RhinoCommon.dll  -->
+			<!-- If you intend to use this library, please check if the dll version matches the following -->
+			<ExpectedRhinoCommonVersion>7.35.23346.11001</ExpectedRhinoCommonVersion>   
+		</PropertyGroup>
+		<Error Condition="'%(RhinoCommonAssembly.Version)' != '$(ExpectedRhinoCommonVersion)'" Text="RhinoCommon.dll version mismatch. Expected $(ExpectedRhinoCommonVersion), but found %(RhinoCommonAssembly.Version)." /> 
+	</Target>
+
+</Project>
